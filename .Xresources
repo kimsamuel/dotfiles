@@ -1,4 +1,4 @@
-!! to match gnome-terminal "Linux console" scheme
+!! to match gnome-terminal "Linux console" scheme / creates cursor highlighting issues with vim will fix later maybe
 !! foreground/background
 !URxvt*background: #000000
 !URxvt*foreground: #ffffff
@@ -27,7 +27,7 @@
 !URxvt.color7  : #AAAAAA
 !URxvt.color15 : #FFFFFFRxvt*scrollTtyOutput: false
 !
-! set urxvt scroll options / mouse wheel does not work in secondary buffer
+! set urxvt scroll options / mouse wheel does not work in secondary buffer no patch
 URxvt*scrollwithBuffer: true
 URxvt*scrollTtyKeyPress: true
 URxvt*secondaryScreen: true
